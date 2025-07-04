@@ -17,13 +17,15 @@
     "LANGUAGE": "ar_SY",
     "LOG_LEVEL": 1,
     "MODERATORS": [
-        "61553754531086"
+        "61553754531086", 
+        "100088400305450"
     ],
     "ABSOLUTES": [
-        "61553754531086"
+        "61553754531086", 
+        "100088400305450"
     ],
     "NAME": "Lemon Bot",
-    "PREFIX": "-",
+    "PREFIX": "*",
     "timezone": "Asia/Manila",
     "REFRESH": "43200000"
 }
