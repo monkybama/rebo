@@ -15,9 +15,9 @@ async function onCall({ message, args, getLang }) {
   const text = args.join(' ');
   
   // الردود المحلية على الأسئلة الشائعة
-  if (!text || text === '') return message.reply(" مرحبا بوت مشمش خاص بأنمي سانين شنو بدك 🐢؟  https://facebook.com/groups/1262520641964913/");
+  if (!text || text === '') return message.reply(" مرحبا بوت ليمون خاص بأنمي سانين شنو بدك 🐢؟  https://facebook.com/groups/1262520641964913/");
   if (text.includes('كيفك') || text.includes('كيف حالك')) return message.reply("تمام، أنا بخير. شكرًا على السؤال! 🐸");
-  if (text.includes('من أنت')) return message.reply("أنا مشمش، مصمم لمساعدتك في الحصول على المعلومات. 🐸");
+  if (text.includes('من أنت')) return message.reply("أنا ليمون، مصمم لمساعدتك في الحصول على المعلومات. 🐸");
 
   try {
     let imageUrl;
